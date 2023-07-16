@@ -1,0 +1,25 @@
+{
+  "name": "vidly-users",
+  "version": "1.0.0",
+  "description": "User module for vidly app; introduced mongoose transactions for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "transactions"
+  ],
+  "author": "ramki",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.5",
+    "nodemon": "^3.0.0"
+  }
+}
